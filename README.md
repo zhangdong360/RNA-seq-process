@@ -4,8 +4,8 @@
 
 ## 输入数据要求：
 
-+ 请在**process_fastp_slurm.sh**中指定数据输入和输出目录，此处默认rawdata存放目录为**./data**，输出目录默认为的**./cleandata**。不建议修改输出目录，如需修改，请同步修改**hisat2_for_slurm.sh**中的输入参数
-+ rawdata存放方式默认为在**./data**目录下每个样本存放在一个文件夹下。如无子文件夹，请按要求处理rawdata。例：
++ 请在**process_fastp_slurm.sh**中指定数据输入和输出目录，此处默认rawdata存放目录为./data，输出目录默认为的./cleandata。不建议修改输出目录，如需修改，请同步修改**hisat2_for_slurm.sh**中的输入参数
++ rawdata存放方式默认为在./data目录下每个样本存放在一个文件夹下。如无子文件夹，请按要求处理rawdata。例：
   + ./data/sample01/sample01.R1.fastq.gz
   + ./data/sample01/sample01.R2.fastq.gz
   + ./data/sample02/sample02.R1.fastq.gz
